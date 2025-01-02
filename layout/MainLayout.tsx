@@ -8,7 +8,7 @@ const MainLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <div className="grid grid-cols-12">
       <SideBar toggleMenu={toggleMenu} setToggleMenu={setToggleMenu} />
-      <div className=" max-w-[1375px] w-full  px-5 pt-7 md:px-10 lg:px-20 col-span-full lg:col-span-10">
+      <div className="max-w-[1375px] w-full  px-5 md:px-10 lg:px-20 col-span-full lg:col-span-10 ">
         <NavBar toggleMenu={toggleMenu} setToggleMenu={setToggleMenu} />
         {children}
       </div>
